@@ -42,10 +42,37 @@ The analysis may benefit:
 
 [Kaggle Traffic Accident Dataset](https://www.kaggle.com/code/hahmacp/road-accident-severity-classification/input)
 
-- Number of rows:
-- Number of columns:
-- Key columns:
+- **Number of rows:** 12,316 records
+- **Number of columns:** 25 variables
 
+- **Key variables:**
+- **Temporal information:** Time, Day_of_week
+- **Driver characteristics:** Age_band_of_driver, Sex_of_driver, Driving_experience
+- **Vehicle information:** Type_of_vehicle, Owner_of_vehicle, Service_year_of_vehicle
+- **Road and environmental conditions:** Area_accident_occured, Road_surface_type, Road_surface_conditions, Weather_conditions, Light_conditions
+- **Accident details:** Type_of_collision, Vehicle_movement, Cause_of_accident, Accident_severity
+- **Casualty information:** Sex_of_casualty, Age_band_of_casualty, Casualty_severity, Fitness_of_casuality, Pedestrian_movement
+- **Count variables:** Number_of_vehicles_involved, Number_of_casualties
+## Project Structure
+
+```
+Traffic_Accident_Analysis/
+│
+├── data/
+│   ├── raw/
+│   └── cleaned/
+│
+├── notebooks/
+│   └── analysis.ipynb
+│
+├── app/
+│   └── streamlit_app.py
+│
+├── images/
+│
+├── requirements.txt
+└── README.md
+```
 
 ## Tools Used
 
@@ -57,70 +84,79 @@ The analysis may benefit:
 - Jupyter Notebook
 - Git
 - GitHub
+- Streamlit
 
 
 ## Data Cleaning
 
-The following cleaning steps were performed:
+The dataset was cleaned before analysis to improve consistency and reliability.
 
-- Removed duplicate records
-- Handled missing values
-- Converted date columns
-- Standardized categorical variables
-- Renamed columns
-- Corrected incorrect data types
-- Removed unnecessary columns
-- Created new calculated variables where necessary
+The main preprocessing steps included:
+
+- Selecting only the variables relevant to the analysis.
+- Standardising text values by removing extra spaces and formatting inconsistencies.
+- Converting variables into appropriate data types.
+- Handling missing values using different approaches depending on the proportion of missing data.
+- Correcting inconsistent category labels.
+- Creating descriptive labels for accident severity.
+- Saving the cleaned dataset for further analysis.
 
 ---
 
-## Analysis Questions
+## Exploratory Data Analysis
 
-The project aims to answer the following questions:
+The following questions were explored during the analysis:
 
-1. How many traffic accidents were recorded?
-2. Which locations experience the most accidents?
-3. Which months record the highest number of accidents?
-4. Which days of the week have the highest accident frequency?
-5. What are the leading causes of accidents?
-6. Which weather conditions are associated with accidents?
-7. What is the distribution of accident severity?
-8. Which vehicle types are most involved in accidents?
-9. Which road users are most affected?
+1. Which locations experience the highest number of accidents?
+2. What time of day do most accidents occur?
+3. Which days of the week record the highest number of accidents?
+4. What are the leading causes of accidents?
+5. How do weather conditions relate to accident occurrence?
+6. What is the distribution of accident severity?
+7. Which vehicle types are most frequently involved in accidents?
+8. Which road users are most affected?
+9. How are the key categorical variables associated with one another?
 
 
 ## Visualizations
 
 The project includes:
 
-- Bar Chart
+- Bar Charts
 - Line Chart
 - Pie Chart
-- Histogram
-- Scatter Plot
-- Box Plot
-- Correlation Heatmap
+- Association Heatmap
 
+## Key Findings
 
-## Key Insights
+The analysis revealed several important patterns:
 
-- When do most accidents occur?
-- Which locations experience the highest accident rates?
-- What are the major causes of accidents?
-- Which weather conditions contribute to accidents?
-- Which road users are most affected?
+- Office areas and residential areas recorded the highest number of reported accidents.
+- Accident frequency increased during the morning hours and peaked in the late afternoon, around **5 PM**.
+- Friday recorded the highest number of accidents, while Sunday had the fewest.
+- The most common causes of accidents included:
+- Failure to maintain sufficient distance between vehicles
+- Improper lane changing
+- Careless driving
+- Failure to give priority to other vehicles
+- Most accidents occurred under normal weather conditions, indicating that driver behavior may have a greater influence than weather alone.
+- Slight injuries accounted for the majority of accident outcomes.
+- Automobiles were involved in the highest number of reported accidents, followed by large lorries.
+- Young adults aged **18–30 years** were the most affected casualty group, while males accounted for more reported casualties than females.
+- The categorical association analysis showed generally weak relationships between most variables, with the strongest association observed between **weather conditions** and **road surface conditions**.
 
 ---
 
 ## Recommendations
 
-Possible recommendations include:
+Based on the analysis, the following recommendations are suggested:
 
-- Increase road safety campaigns.
-- Improve road signage.
-- Enhance traffic enforcement.
-- Improve road infrastructure.
-- Promote defensive driving education.
+- Promote safer driving practices through road safety awareness campaigns.
+- Strengthen enforcement of traffic rules, particularly during peak accident hours.
+- Focus road safety interventions in accident-prone locations such as office and residential areas.
+- Develop targeted education programmes for young drivers and other high-risk road users.
+- Improve the quality and completeness of accident records by including additional information such as accident dates and locations.
+- Extend the project by developing predictive models to estimate accident severity and identify high-risk scenarios.
 
 ---
 
@@ -147,7 +183,7 @@ pip install -r requirements.txt
 4. Open the notebook
 
 ```bash
-jupyter notebook
+Jupyter notebook
 ```
 
 5. Run all cells.
@@ -158,7 +194,7 @@ jupyter notebook
 
 Sharon Mukami Mungai — 677714
 
-Brian — 
+Brian Muuo — 
 
 ---
 
