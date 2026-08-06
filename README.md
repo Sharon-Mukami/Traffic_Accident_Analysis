@@ -156,9 +156,11 @@ The main preprocessing steps included:
 The following questions were explored during the analysis:
 
 1. Which locations experience the highest number of accidents?
+   
    <img src="visuals/Locations_by_Accidents_count.png" width="700">
    
 2. What time of day do most accidents occur?
+   
    <table>
 <tr>
 
@@ -171,6 +173,7 @@ The following questions were explored during the analysis:
    </table>
    
 3. Which days of the week record the highest number of accidents?
+   
       <table>
 <tr>
    <td align="center">
@@ -182,6 +185,7 @@ The following questions were explored during the analysis:
 </table>
 
 4. What are the leading causes of accidents?
+   
    <table>
 <tr>
 
@@ -194,9 +198,11 @@ The following questions were explored during the analysis:
 </table>
 
 5. How do weather conditions relate to accident occurrence?
+   
 <img src="visuals/Accident_severity_by_Weather_conditions.png" width="700">
 
 6. What is the distribution of accident severity?
+   
    <table>
 <tr>   
   <td align="center">
@@ -208,12 +214,15 @@ The following questions were explored during the analysis:
 </table>
 
 7. Which vehicle types are most frequently involved in accidents?
+   
 <img src="visuals/Vehicle_Types_by_accident_count.png" width="700">
 
 8. Which road users are most affected?
+    
 <img src="visuals/AccidentSeverity_by_Casualty_ageband.png" width="700">
 
 9. How are the key categorical variables associated with one another?
+    
 <img src="visuals/Association_between_categorical_variables.png" width="700">
 
 ---
