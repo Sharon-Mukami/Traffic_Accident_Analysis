@@ -194,7 +194,7 @@ Jupyter notebook
 
 Sharon Mukami Mungai — 677714
 
-Brian Muuo — 
+Brian Muuo Kitili — 677038
 
 ---
 
