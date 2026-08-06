@@ -91,10 +91,13 @@ Traffic_Accident_Analysis/
 
 The dataset was cleaned before analysis to improve consistency and reliability.
 
+!(visuals/Standardize and correct errors.PNG) !(visuals/Feature selction.PNG)
+!(visuals/convert to right data types.PNG) !(visuals/Handling missing values.PNG)
+
 The main preprocessing steps included:
 
 - Selecting only the variables relevant to the analysis.
-- Standardising text values by removing extra spaces and formatting inconsistencies.
+- Standardizing text values by removing extra spaces and formatting inconsistencies.
 - Converting variables into appropriate data types.
 - Handling missing values using different approaches depending on the proportion of missing data.
 - Correcting inconsistent category labels.
