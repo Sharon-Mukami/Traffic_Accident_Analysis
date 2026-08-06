@@ -3,20 +3,22 @@
 
 
 ---
-## Course
+## Course:
 DSA1080UA, Programming For Data Science
 
-## Lecturer
+## Lecturer:
 Mr. Austin Odera
 
-## Authors
+## Prepared by:
 1. Sharon Mukami Mungai — 677714
 2. Brian Muuo Kitili — 677038
 
-## Project Links
+## Project Links:
 1. Github: **[Open Github](https://github.com/Sharon-Mukami/Traffic_Accident_Analysis)**
 2. Streamlit Demo: **[Open Streamlit](https://5ochd9jh4jebkjgt9bejmh.streamlit.app/)**
 
+## Submission Date:
+6/08/2026
 ---
 ## Project Description
 
