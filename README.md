@@ -16,6 +16,7 @@ Mr. Austin Odera
 ## Project Links:
 1. Github: **[Open Github](https://github.com/Sharon-Mukami/Traffic_Accident_Analysis)**
 2. Streamlit Demo: **[Open Streamlit](https://5ochd9jh4jebkjgt9bejmh.streamlit.app/)**
+3. Presentation slides: [Slides](https://github.com/Sharon-Mukami/Traffic_Accident_Analysis/blob/main/presentation/Traffic-Accident-Analysis.pptx)
 
 ## Submission Date:
 6/08/2026
