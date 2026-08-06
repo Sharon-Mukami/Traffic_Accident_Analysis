@@ -53,25 +53,40 @@ The analysis may benefit:
 - **Accident details:** Type_of_collision, Vehicle_movement, Cause_of_accident, Accident_severity
 - **Casualty information:** Sex_of_casualty, Age_band_of_casualty, Casualty_severity, Fitness_of_casuality, Pedestrian_movement
 - **Count variables:** Number_of_vehicles_involved, Number_of_casualties
+  
 ## Project Structure
 
 ```
 Traffic_Accident_Analysis/
 │
+├── app.py                     # Streamlit web application
+├── requirements.txt           # Project dependencies
+├── runtime.txt                # Python version for deployment
+├── README.md                  # Project documentation
+│
 ├── data/
-│   ├── raw/
-│   └── cleaned/
+│   ├── Raw_data.csv
+│   └── Cleaned_data.csv
 │
 ├── notebooks/
-│   └── analysis.ipynb
+│   └── analysis.ipynb         # Data cleaning, EDA and analysis
 │
-├── app/
-│   └── streamlit_app.py
+├── visuals/
+│   ├── Standardize_and_correct_errors.PNG
+│   ├── Feature_selction.PNG
+│   ├── convert_to_right_data_types.PNG
+│   ├── Handling_missing_values.PNG
+│   ├── Locations_by_Accidents_count.png
+│   ├── Accidents_by_hour_of_day.png
+│   ├── Accidents_by_Day_of_week.png
+│   ├── Causes_of_accidents_by_count.png
+│   ├── Accident_severity_by_Weather_conditions.png
+│   ├── Distribution_of_Accident_Severity.png
+│   ├── Vehicle_Types_by_accident_count.png
+│   ├── AccidentSeverity_by_Casualty_ageband.png
+│   └── Association_between_categorical_variables.png
 │
-├── images/
-│
-├── requirements.txt
-└── README.md
+└──
 ```
 
 ## Tools Used
@@ -90,9 +105,39 @@ Traffic_Accident_Analysis/
 ## Data Cleaning
 
 The dataset was cleaned before analysis to improve consistency and reliability.
+<table>
+<tr>
+<td align="center">
 
-!(visuals/Standardize and correct errors.PNG) !(visuals/Feature selction.PNG)
-!(visuals/convert to right data types.PNG) !(visuals/Handling missing values.PNG)
+<img src="visuals/Standardize_and_correct_errors.PNG" width="420"><br>
+<b>Standardize and Correct Errors</b>
+
+</td>
+
+<td align="center">
+
+<img src="visuals/Feature_selction.PNG" width="420"><br>
+<b>Feature Selection</b>
+
+</td>
+</tr>
+
+<tr>
+<td align="center">
+
+<img src="visuals/convert_to_right_data_types.PNG" width="420"><br>
+<b>Convert to Appropriate Data Types</b>
+
+</td>
+
+<td align="center">
+
+<img src="visuals/Handling_missing_values.PNG" width="420"><br>
+<b>Handling Missing Values</b>
+
+</td>
+</tr>
+</table>
 
 The main preprocessing steps included:
 
@@ -111,24 +156,67 @@ The main preprocessing steps included:
 The following questions were explored during the analysis:
 
 1. Which locations experience the highest number of accidents?
+   <img src="visuals/Locations_by_Accidents_count.png" width="700">
+   
 2. What time of day do most accidents occur?
+   <table>
+<tr>
+
+<td align="center">
+<img src="visuals/Accidents_by_hour_of_day.png" width="420"><br>
+<b>Accidents by Hour of Day</b>
+</td>
+
+</tr>
+   </table>
+   
 3. Which days of the week record the highest number of accidents?
+      <table>
+<tr>
+   <td align="center">
+<img src="visuals/Accidents_by_Day_of_week.png" width="420"><br>
+<b>Accidents by Day of Week</b>
+</td>
+
+</tr>
+</table>
+
 4. What are the leading causes of accidents?
+   <table>
+<tr>
+
+<td align="center">
+<img src="visuals/Causes_of_accidents_by_count.png" width="420"><br>
+<b>Leading Causes of Accidents</b>
+</td>
+
+</tr>
+</table>
+
 5. How do weather conditions relate to accident occurrence?
+<img src="visuals/Accident_severity_by_Weather_conditions.png" width="700">
+
 6. What is the distribution of accident severity?
+   <table>
+<tr>   
+  <td align="center">
+<img src="visuals/Distribution_of_Accident_Severity.png" width="420"><br>
+<b>Distribution of Accident Severity</b>
+</td>
+
+</tr>
+</table>
+
 7. Which vehicle types are most frequently involved in accidents?
+<img src="visuals/Vehicle_Types_by_accident_count.png" width="700">
+
 8. Which road users are most affected?
+<img src="visuals/AccidentSeverity_by_Casualty_ageband.png" width="700">
+
 9. How are the key categorical variables associated with one another?
+<img src="visuals/Association_between_categorical_variables.png" width="700">
 
-
-## Visualizations
-
-The project includes:
-
-- Bar Charts
-- Line Chart
-- Pie Chart
-- Association Heatmap
+---
 
 ## Key Findings
 
