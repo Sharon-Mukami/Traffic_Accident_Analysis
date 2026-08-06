@@ -3,16 +3,25 @@
 
 
 ---
+## Course
+DSA1080UA, Programming For Data Science
 
-## Streamlit Demo
+## Lecturer
+Mr. Austin Odera
 
-**[Open Streamlit](https://5ochd9jh4jebkjgt9bejmh.streamlit.app/)**
+## Authors
+1. Sharon Mukami Mungai — 677714
+2. Brian Muuo Kitili — 677038
 
+## Project Links
+1. Github: **[Open Github](https://github.com/Sharon-Mukami/Traffic_Accident_Analysis)**
+2. Streamlit Demo: **[Open Streamlit](https://5ochd9jh4jebkjgt9bejmh.streamlit.app/)**
+
+---
 ## Project Description
 
 This project analyzes road traffic accident data using Python to identify patterns, trends, and possible factors contributing to road accidents.
 Through data cleaning, exploratory data analysis, and visualization, the project aims to provide insights that can support road safety planning and decision making.
-
 
 ## Problem Statement
 
@@ -24,7 +33,6 @@ Road traffic accidents remain one of the leading causes of injuries and fataliti
 - What are the major causes of accidents?
 - Which weather conditions contribute to accidents?
 - Which road users are most affected?
-
 
 ## Target Users
 
@@ -257,14 +265,6 @@ Jupyter notebook
 ```
 
 5. Run all cells.
-
----
-
-## Authors
-
-Sharon Mukami Mungai — 677714
-
-Brian Muuo Kitili — 677038
 
 ---
 
