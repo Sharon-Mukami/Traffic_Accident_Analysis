@@ -4,6 +4,10 @@
 
 ---
 
+## Streamlit Demo
+
+**[Open Streamlit](https://5ochd9jh4jebkjgt9bejmh.streamlit.app/)**
+
 ## Project Description
 
 This project analyzes road traffic accident data using Python to identify patterns, trends, and possible factors contributing to road accidents.
@@ -255,10 +259,6 @@ Jupyter notebook
 5. Run all cells.
 
 ---
-
-## Streamlit Demo
-
-![Streamlit](https://5ochd9jh4jebkjgt9bejmh.streamlit.app/)
 
 ## Authors
 
