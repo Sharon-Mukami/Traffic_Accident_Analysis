@@ -256,6 +256,10 @@ Jupyter notebook
 
 ---
 
+## Streamlit Demo
+
+![Streamlit](https://5ochd9jh4jebkjgt9bejmh.streamlit.app/)
+
 ## Authors
 
 Sharon Mukami Mungai — 677714
