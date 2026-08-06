@@ -165,7 +165,7 @@ The following questions were explored during the analysis:
    
 2. What time of day do most accidents occur?
 
-   ![](visuals/Accidents_by hour_of_day.png)
+   ![](visuals/Accidents_by_hour_of_day.png)
    
 3. Which days of the week record the highest number of accidents?
 
@@ -173,7 +173,7 @@ The following questions were explored during the analysis:
 
 4. What are the leading causes of accidents?
  
-  ![](visuals/Causes of_accidents_by_count.png)
+  ![](visuals/Causes_of_accidents_by_count.png)
 
 5. How do weather conditions relate to accident occurrence?
    
