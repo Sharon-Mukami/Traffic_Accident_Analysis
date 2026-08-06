@@ -157,73 +157,39 @@ The following questions were explored during the analysis:
 
 1. Which locations experience the highest number of accidents?
    
-   <img src="visuals/Locations_by_Accidents_count.png" width="700">
+  ![](visuals/Locations_by_Accdients_count.png)
    
 2. What time of day do most accidents occur?
-   
-   <table>
-<tr>
 
-<td align="center">
-<img src="visuals/Accidents_by_hour_of_day.png" width="420"><br>
-<b>Accidents by Hour of Day</b>
-</td>
-
-</tr>
-   </table>
+   ![](visuals/Accidents_by hour_of_day.png)
    
 3. Which days of the week record the highest number of accidents?
-   
-      <table>
-<tr>
-   <td align="center">
-<img src="visuals/Accidents_by_Day_of_week.png" width="420"><br>
-<b>Accidents by Day of Week</b>
-</td>
 
-</tr>
-</table>
+  ![](visuals/Accidents_by_Day_of_week.png)
 
 4. What are the leading causes of accidents?
-   
-   <table>
-<tr>
-
-<td align="center">
-<img src="visuals/Causes_of_accidents_by_count.png" width="420"><br>
-<b>Leading Causes of Accidents</b>
-</td>
-
-</tr>
-</table>
+ 
+  ![](visuals/Causes of_accidents_by_count.png)
 
 5. How do weather conditions relate to accident occurrence?
    
-<img src="visuals/Accident_severity_by_Weather_conditions.png" width="700">
+  ![](visuals/Accident_severity_by_Weather_conditions.png)
 
 6. What is the distribution of accident severity?
+
+   ![](visuals/Distribution_of_Accident_Severity.png)
    
-   <table>
-<tr>   
-  <td align="center">
-<img src="visuals/Distribution_of_Accident_Severity.png" width="420"><br>
-<b>Distribution of Accident Severity</b>
-</td>
-
-</tr>
-</table>
-
 7. Which vehicle types are most frequently involved in accidents?
+
+   ![](visuals/Vehicle_Types_by_accident_count.png)
    
-<img src="visuals/Vehicle_Types_by_accident_count.png" width="700">
-
 8. Which road users are most affected?
-    
-<img src="visuals/AccidentSeverity_by_Casualty_ageband.png" width="700">
 
-9. How are the key categorical variables associated with one another?
+   ![](visuals/AccidentSeverity_by_Casualty_ageband.png)
     
-<img src="visuals/Association_between_categorical_variables.png" width="700">
+10. How are the key categorical variables associated with one another?
+ 
+   ![](visuals/Association_between_categorical_variables.png)
 
 ---
 
